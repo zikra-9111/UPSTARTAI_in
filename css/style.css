@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #1363C6;
-    --secondary: #15ACE1;
+    --primary: #205a97;
+    --secondary: #23568b;
     --light: #F4F7FE;
-    --dark: #14183E;
+    --dark: #bfc4ca;
 }
 
 
@@ -36,6 +36,7 @@ h2,
 h3,
 .fw-bold {
     font-weight: 700 !important;
+    font-family: serif;
 }
 
 h4,
@@ -43,6 +44,7 @@ h5,
 h6,
 .fw-medium {
     font-weight: 500 !important;
+    font-family: serif;
 }
 
 
@@ -194,7 +196,7 @@ h6,
     height: 10px;
     top: 2px;
     left: 0;
-    background: rgba(33, 66, 177, .5);
+    background: rgba(15, 31, 87, 0.5);
 }
 
 .section-title h6::after {
@@ -225,18 +227,26 @@ h6,
 .service-item {
     position: relative;
     padding: 45px 30px;
-    background: #6391f3;
+    background: #3763c2;
     transition: .5s;
+    color:#FFFFFF
+     
 }
-
+.bg-image-container {
+    background-image: url('img/background'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    position: relative; /* Ensures the background image covers the entire container */
+}
 .service-item:hover {
     background: var(--primary);
 }
 
 .service-item .service-icon {
     margin: 0 auto 20px auto;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     color: var(--primary);
     background: var(--light);
     transition: .5s;
@@ -250,6 +260,9 @@ h6,
 .service-item h5,
 .service-item p {
     transition: .5s;
+    color:#FFFFFF;
+    font-weight: 900
+
 }
 
 .service-item:hover h5,
@@ -263,10 +276,12 @@ h6,
     color: var(--primary);
     transition: .5s;
     z-index: 1;
+    color:#FFFFFF
 }
 
 .service-item:hover a.btn {
     color: var(--primary);
+    
 }
 
 .service-item a.btn::before {
@@ -412,6 +427,7 @@ h6,
 .accordion .accordion-item {
     border: none;
     margin-bottom: 15px;
+    font-size: small;
 }
 
 .accordion .accordion-button {
@@ -649,3 +665,4 @@ h6,
     color: #fff;
     text-decoration: none;
   }
+
