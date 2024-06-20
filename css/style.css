@@ -88,20 +88,34 @@ h6,
 }
 
 .navbar {
-    padding: 11px 0 !important;
-    height: 75px;
+    padding: 20px 20px !important;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+    width: 200px;
+    margin-left: 20px;
+}
+.search-icon {
+    color: #4924cf; /* Set the color to black */
 }
 
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 0;
-    color: rgba(255, 255, 255, .7);
+    color: #4924cf;;
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: rgba(255, 255, 255, 1);
+    color:  #4924cf;;
 }
 
 .navbar .dropdown-toggle::after {
@@ -227,7 +241,7 @@ h6,
 .service-item {
     position: relative;
     padding: 45px 30px;
-    background: #3763c2;
+    background: #153477;
     transition: .5s;
     color:#FFFFFF
      
